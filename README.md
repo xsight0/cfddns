@@ -57,3 +57,5 @@ echo '*/2 * * * * /root/cfddns.sh >> /var/log/cf-ddns.log 2>&1' | crontab -
 这个是2分钟一次 一般够用了
 日志地址在
 /var/log/路径下 用 finalshell.exe 文件管理看 
+
+crontab -l 查看是否成功
