@@ -26,3 +26,9 @@
 ![截图_20250918152857](https://raw.githubusercontent.com/xsight0/cfddns/refs/heads/main/jietu_20250918152857.png)
 
 ###下载 DDNS 脚本###
+执行以下命令下载脚本并赋予执行权限：
+
+```bash
+curl https://raw.githubusercontent.com/xsight0/cfddns/refs/heads/main/cfddns.sh > /root/cfddns.sh && chmod +x /root/cfddns.sh
+
+
