@@ -16,4 +16,13 @@
 
 ### 获取Global API Key
 
-访问 [<[https://dash.cloudflare.com/profile](https://dash.cloudflare.com/profile/api-tokens)>](https://dash.cloudflare.com/profile/api-tokens)在页面下方找到 Global API Key，点击右侧的 View 查看 Key，并保存下来 ，在页面下方找到 Global API Key，点击右侧的 View 查看 Key，并保存下来
+访问 [<(https://dash.cloudflare.com/profile/api-tokens)>](https://dash.cloudflare.com/profile/api-tokens)在页面下方找到 Global API Key，点击右侧的 View 查看 Key，并保存下来 ，在页面下方找到 Global API Key，点击右侧的 View 查看 Key，并保存下来
+![微信图片_20250918152507](https://raw.githubusercontent.com/xsight0/cfddns/d7fc5a924f2f431f62336a141480e6b9e86f26e2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250918152507.png)
+
+
+### 设置用于 DDNS 解析的二级域名，流量不经过CDN(云朵变灰)
+
+添加一条A记录，例如：hkt.test.com，Proxy status设置成DNS only
+![截图_20250918152857](https://raw.githubusercontent.com/xsight0/cfddns/refs/heads/main/jietu_20250918152857.png)
+
+###下载 DDNS 脚本###
